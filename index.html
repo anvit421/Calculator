@@ -11,39 +11,39 @@
     <div id="navbar">Calculator</div>
     <div class="container">
 
-        <div id="screen">0</div>
+        <div id="screen"></div>
 
         <div class="row1">
-            <button id="clear">CE</button>
+            <button id="clear" onclick="clear()">CE</button>
             <button id="backspace">&larr;</button>
         </div>
 
         <div class="row2">
-            <button id="but9">9</button>
-            <button id="but8">8</button>
-            <button id="but7">7</button>
-            <button id="division">/</button>
+            <button id="but9" value="9">9</button>
+            <button id="but8" value="8">8</button>
+            <button id="but7" value="7">7</button>
+            <button id="division" onclick="operator()">/</button>
         </div>
 
         <div class="row3">
-            <button id="but6">6</button>
-            <button id="but5">5</button>
-            <button id="but4">4</button>
-            <button id="multiply">X</button>
+            <button id="but6" value="6">6</button>
+            <button id="but5" value="5">5</button>
+            <button id="but4" value="4">4</button>
+            <button id="multiply" onclick="operator()">X</button>
         </div>
 
         <div class="row4">
-            <button id="but3">3</button>
-            <button id="but2">2</button>
-            <button id="but1">1</button>
-            <button id="add">+</button>
+            <button id="but3" value="3">3</button>
+            <button id="but2" value="2">2</button>
+            <button id="but1" value="1">1</button>
+            <button id="add" onclick="operator()">+</button>
         </div>
 
         <div class="row5">
-            <button id="decimal">.</button>
-            <button id="but0">0</button>
-            <button id="equals">=</button>
-            <button id="subtract">-</button>
+            <button id="decimal" onclick="decimal()">.</button>
+            <button id="but0" value="0">0</button>
+            <button id="equals" onclick="equals()">=</button>
+            <button id="subtract" onclick="operator()">-</button>
         </div>
     </div>
     <p id="copyright">&copy; anvit421 2025</p>
